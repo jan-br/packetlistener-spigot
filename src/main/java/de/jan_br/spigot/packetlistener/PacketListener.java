@@ -1,8 +1,7 @@
-package net.jan_br.spigot.packetlistener;
+package de.jan_br.spigot.packetlistener;
 
 import com.google.common.eventbus.EventBus;
 import io.netty.channel.Channel;
-import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelPipeline;
 import org.bukkit.entity.Player;
 
@@ -10,7 +9,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Collection;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public final class PacketListener {

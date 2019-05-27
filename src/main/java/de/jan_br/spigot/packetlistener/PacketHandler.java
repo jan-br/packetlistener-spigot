@@ -1,4 +1,4 @@
-package net.jan_br.spigot.packetlistener;
+package de.jan_br.spigot.packetlistener;
 
 import com.google.common.eventbus.EventBus;
 import io.netty.channel.ChannelDuplexHandler;

@@ -1,4 +1,4 @@
-package net.jan_br.spigot.packetlistener;
+package de.jan_br.spigot.packetlistener;
 
 import org.bukkit.entity.Player;
 

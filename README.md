@@ -1,6 +1,6 @@
 # Packet Listener
 
-This is a very basic, simple and version independent Netty packet-listener for spigot
+This is a very lightweight, simple and version independent Netty packet-listener for spigot
 which uses the [Guava EventBus](https://github.com/google/guava/wiki/EventBusExplained).
 
 ## Simple Example:

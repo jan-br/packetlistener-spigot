@@ -5,7 +5,7 @@ which uses the [Guava EventBus](https://github.com/google/guava/wiki/EventBusExp
 
 ## Simple Example:
 ```java
-public void TestPlugin extends JavaPlugin{
+public class TestPlugin extends JavaPlugin{
   public void onEnable(){
     PacketListener.getInstance().getEventBus().register(this);
     this.getServer.getPluginManager().registerEvents(new Listener(){
